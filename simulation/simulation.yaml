@@ -1,0 +1,24 @@
+repositories:
+  # Simulator related repositories
+  riptide_simulator:
+    type: git
+    url: https://github.com/Riptide-team/riptide_simulator.git
+    version: main
+  riptide_hardware_sim:
+    type: git
+    url: https://github.com/Riptide-team/riptide_hardware_sim.git
+    version: main
+
+  # Common repositories
+  riptide_msgs:
+      type: git
+      url: https://github.com/Riptide-team/riptide_msgs.git
+      version: main
+  riptide_controllers:
+      type: git
+      url: https://github.com/Riptide-team/riptide_controllers.git
+      version: main
+  riptide_navigation:
+      type: git
+      url: https://github.com/Riptide-team/riptide_navigation.git
+      version: main

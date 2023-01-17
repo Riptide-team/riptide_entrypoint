@@ -2,6 +2,35 @@
 
 This repository is the entrypoint for the riptide
 
+## Repositories
+
+Riptide repositories are split into sub-repositories, and according to their purpose can be used or not.
+
+### Common repositories
+
+| Repository            | Description                                    |
+|----------------------:|:-----------------------------------------------|
+| `riptide_controllers` | ROS2 control controllers                       |
+| `riptide_msgs`        | ROS2 riptide's messages                        |
+| `riptide_navigation`  | ROS2 high level controllers and state machines |
+
+### Simulator specific repositories
+
+| Repository                | Description                                       |
+|--------------------------:|:--------------------------------------------------|
+| `riptide_simulator`       | ROS2 riptide's simulator                          |
+| `riptide_bringup_sim`     | ROS2 riptide's simulator launch files             |
+| `riptide_description_sim` | ROS2 URDF riptide's description for the simulator |
+| `riptide_hardware_sim`    | ROS2 control simulated hardware interfaces        |
+
+### Hardware specific repositories
+
+| Repository            | Description                      |
+|----------------------:|:---------------------------------|
+| `riptide_bringup`     | ROS2 riptide's launch files      |
+| `riptide_description` | ROS2 URDF riptide's description  |
+| `riptide_hardware`    | ROS2 control hardware interfaces |
+
 ## Docker compilation
 
 ### Local compilation

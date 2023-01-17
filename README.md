@@ -1,6 +1,6 @@
 # Riptide Entrypoint
 
-This repository is the entrypoint for the riptide
+This repository is the entrypoint for the riptide. It gives all informations to compile and install repositories for riptide simulation or for an hardware mission.
 
 ## Repositories
 

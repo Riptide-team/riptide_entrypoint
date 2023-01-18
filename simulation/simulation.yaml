@@ -1,8 +1,16 @@
 repositories:
   # Simulator related repositories
+  riptide_bringup_sim:
+    type: git
+    url: https://github.com/Riptide-team/riptide_bringup_sim.git
+    version: main
   riptide_simulator:
     type: git
     url: https://github.com/Riptide-team/riptide_simulator.git
+    version: main
+  riptide_description_sim:
+    type: git
+    url: https://github.com/Riptide-team/riptide_descritpion_sim.git
     version: main
   riptide_hardware_sim:
     type: git

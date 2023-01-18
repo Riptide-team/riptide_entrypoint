@@ -49,4 +49,4 @@ RUN sed --in-place --expression \
       /ros_entrypoint.sh
 
 # run launch file
-CMD ["ros2", "run", "riptide_simulator", "riptide_simulator"]
+CMD ["ros2", "launch", "riptide_bringup", "test_actuators.launch.py"]
